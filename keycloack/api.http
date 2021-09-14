@@ -1,0 +1,8 @@
+POST http://localhost:8080/auth/realms/fin-app/protocol/openid-connect/token
+Content-Type: application/x-www-form-urlencoded
+
+client_id=nest
+&client_secret=29c277fe-b1be-4ad4-bb2d-0a61581819db
+&grant_type=password
+&username=user1@user.com
+&password=123456
